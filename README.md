@@ -143,12 +143,12 @@ import time
 import random
 import ssl
 
-broker = "441a2e6f220d459e99e7695a674c8f4f.s1.eu.hivemq.cloud"
+broker = "bb64b5b0150247a1a70487e2c2426296.s1.eu.hivemq.cloud"
 port = 8883
-topic = "iot/demo/sensor"
+topic = "demo/sensor"
 
-username = "hivemq.webclient.1761190474075"
-password = "1Wv8p.y>HrVc0E%AhL9:"
+username = "hivemq.webclient.1762399099934"
+password = ",58pbqs<1$XN.Jh2aHYS"
 
 client = mqtt.Client(client_id="publisher")
 client.username_pw_set(username,password)
@@ -165,7 +165,8 @@ while True:
 
 ### OUTPUT SCREENSHOTS
 
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/49150de9-8b76-4b13-9ab1-ef91f297efe3" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7307b8c6-c9f2-4cf6-bc46-2decc0de1029" />
+
 
 
 ## Results
